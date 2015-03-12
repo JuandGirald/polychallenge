@@ -1,7 +1,5 @@
 module Polychallenge
-
-  require 'yaml'
-
+  
   # load the yml file with the ebay credentials
   EBAY_CREDENTIALS = YAML::load_file(File.join(File.dirname(__FILE__), "yaml/ebay.yml"))
   
